@@ -14,8 +14,7 @@ function buildBody() {
     
     theContainer.append(header);
     
-    
-    //$("#header").append(pageTitle).append(countryImage);
+
     $("#header").append(pageTitle).append(divLoginAndCountryImage);
     var navigationPane = "<div id='navigationPane' class='col-md-3 sidebar'></div>";
     var resultsPane = "<div id='resultsPane' class='col-md-9'></div>";
