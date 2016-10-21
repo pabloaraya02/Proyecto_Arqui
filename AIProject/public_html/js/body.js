@@ -2,24 +2,27 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-var domainroot='www.google.com'
+var domainroot='www.google.com';
 function Gsitesearch(curobj){ curobj.q.value='site:'+domainroot+' '+curobj.qfront.value } 
 
 function buildBody(myCallback) {
     var theContainer = $(".container");
     var header = "<div id='header' class='row'></div>";
-    var pageTitle = "<div class='col-md-6'><h1><a href='#' id='tittle'>Hexagonal Final - RUSIA 2018</a></h1></div>";
-    var googleSearch = "<div class='col-md-3'><gcse:search></gcse:search></div>";
+    var pageTitle = "<div class='col-md-6'><h1><a class='texto-blanco' href='#' id='tittle'>Hexagonal Final - RUSIA 2018</a></h1></div>";
+
+	var googleSearch="<form class='search navbar-form navbar-right' action='http://www.google.com/search' method='get'role='search' onSubmit='Gsitesearch(this)'> <div class='input-group'> <input name='q' type='hidden' /> <input class='form-control' name='qfront' type='search' required class='searchField' placeholder='Google Site Search' maxlength='50'/> <span class='input-group-btn'> <button type='submit' class='search-button btn btn-primary'> <span class='glyphicon glyphicon-search'></span> </button> </span> </div> </form>";
     var countryImage = "<div class='col-md-12'><img class='pull-right' id='countryImage' src='images/crc.png' alt='country'></div>";
-    var loginButton = "<div id = 'loginButton' class='col-md-6'><a href='#'>Inicio de sesión <i class='glyphicon glyphicon-user'></i></a></div>"+
-                            "<div id = 'registerButton' class='col-md-6'><a href='#'>Regístrese <i class='glyphicon glyphicon-pencil'></i></a></div>";
-    var divLoginAndCountryImage = "<div class='col-md-3 pull-right' id='divLoginAndCountryImage'><div class='row'>"+loginButton+"</div><div class='row'>"+countryImage+"</div></div>";
-    
+
+	var loginButton = "<div id = 'loginButton' class='col-md-3 col-sm-12 main-icons'><a class='texto-blanco' href='#'>Inicio de sesión <i class='glyphicon glyphicon-user'></i></a></div>"+
+                             "<div id = 'registerButton' class='col-md-3 col-sm-12 main-icons'><a class='texto-blanco' href='#'>Regístrese <i class='glyphicon glyphicon-pencil'></i></a></div>"+
+ 							"<div class='col-md-6 col-sm-12'>"+googleSearch+"</div>";
+     var divLoginAndCountryImage = "<div class='col-md-6 pull-right' id='divLoginAndCountryImage'><div class='row'>"+loginButton+"</div><div class='row'>"+countryImage+"</div></div>";
+	
+	
     theContainer.append(header);
 	
-    
-
-    $("#header").append(pageTitle).append(googleSearch).append(divLoginAndCountryImage);
+ 
+	 $("#header").append(pageTitle).append(divLoginAndCountryImage);
     var navigationPane = "<div id='navigationPane' class='col-md-3 sidebar'></div>";
     var resultsPane = "<div id='resultsPane' class='col-md-9'></div>";
     var mainPane = "<div id='mainPane' class='row'></div>";
@@ -72,7 +75,7 @@ function setCountryTeamFlag(countrySelected) {
                         .attr("src",imgVal);
 }
 function buildNavigation() {
-    $("#navigationPane").append(buildSelectOfCountries());
+    $("#navigationPane").append(buildSelectOfCountries("selectCountryMainPage"));
     $("#navigationPane").append("<ul class='nav nav-sidebar'>" +
             "<li class='active clicked'><a data-selection='calendar' href='#'>Calendario</a></li>" +
             "<li><a data-selection='news' href='#'>Noticias</a></li>" +
@@ -112,9 +115,9 @@ function buildNews(country) {
     return news;
 }
 
-function buildSelectOfCountries() {
+function buildSelectOfCountries(idSelect) {
 
-    var select = "<div class='form-group form-group-sm'><select id='countrySelect' class='form-control'>" +
+    var select = "<div class='form-group form-group-sm'><select id='"+idSelect+"' class='form-control'>" +
             "<option value='CRC'>Costa Rica</option>" +
             "<option value='HND'>Honduras</option>" +
             "<option value='MEX'>M&eacute;xico</option>" +

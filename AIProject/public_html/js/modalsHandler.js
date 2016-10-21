@@ -48,7 +48,24 @@ function modalRegister(){
     "        <h4 class='modal-title'>Registro</h4>"+
     "      </div>"+
     "      <div class='modal-body'>"+
-    "        <p>One fine body&hellip;</p>"+
+    "        <form>"+
+            "  <div class='form-group'>"+
+            "    <label for='InputEmailReg'>Correo electrónico</label>"+
+            "    <input type='email' class='form-control' id='InputEmailReg' placeholder='Correo electrónico'>"+
+            "  </div>"+
+            "  <div class='form-group'>"+
+            "    <label for='InputPasswordReg'>Contraseña</label>"+
+            "    <input type='password' class='form-control' id='InputPasswordReg' placeholder='Contraseña'>"+
+            "  </div>"+
+			"  <div class='form-group'>"+
+            "    <label for='repeatInputPasswordReg'>Repita la Contraseña</label>"+
+            "    <input type='password' class='form-control' id='repeatInputPasswordReg' placeholder='Contraseña'>"+
+            "  </div>"+
+			"  <div class='form-group'>"+
+            "    <label for='chooseCountryReg'>Repita la Contraseña</label>"+
+			buildSelectOfCountries("chooseCountryReg")+
+            "  </div>"+
+            "</form>"+
     "      </div>"+
     "      <div class='modal-footer'>"+
     "        <button type='button' class='btn btn-default' data-dismiss='modal'>Cerrar</button>"+
@@ -64,7 +81,7 @@ function modalRegister(){
 function modalUserProfile(email){
     
     var userLogged = getUserByEmail(email);
-    var flagUrl = getCountryTeamFlag(userLogged.favoriteCountry);
+    var flagUrl = getCountryTeamFlag(userLogged.favoriteCountryCode);
     var modal = "<div id='modalUserProfile' class='modal fade' tabindex='-1' role='dialog'>"+
     "  <div class='modal-dialog' role='document'>"+
     "    <div class='modal-content'>"+
@@ -72,8 +89,10 @@ function modalUserProfile(email){
 "            <div class='panel-heading' style='background-image: url("+flagUrl+");'></div>"+
 "            <div class='panel-body text-center'>"+
 "              <img class='panel-profile-img' src='images/avatarDefault.png'>"+
-"              <h5 class='panel-title'>"+userLogged.name+" "+userLogged.lastName+"</h5>"+
-"              <p class='m-b'></p>"+
+"              <h4 class='panel-title'><b>"+userLogged.name+" "+userLogged.lastName+"</b></h4>"+
+"              	<div class='row'><div class = 'col-md-6'><b>País Favorito: </b></div><div class = 'col-md-6'><b>Email:</b></div></div>"+
+"				<div class='row'><div class = 'col-md-6'>"+userLogged.favoriteCountry+"</div><div class = 'col-md-6'>"+userLogged.email+"</div></div>"+
+"				<div class='row'><div class = 'col-md-6'></div><div class = 'col-md-6'></div></div>"+
 "              <button type='button' class='btn btn-default' data-dismiss='modal'>Cerrar</button>"+
 "            </div>"+
 "          </div>"+
@@ -82,6 +101,12 @@ function modalUserProfile(email){
     "  </div><!-- /.modal-dialog -->"+
     "</div><!-- /.modal -->";
     return modal;
+	
+	userObject.name = "Sergio";
+            userObject.lastName = "Villegas";
+            userObject.email = email;
+            userObject.favoriteCountryCode = "PAN";
+            userObject.urlPicture = "";
 }
 function getCountryTeamFlag(countrySelected) {
     var imgVal = "";

@@ -22,42 +22,48 @@ function getUserByEmail(email){
             userObject.name = "Sergio";
             userObject.lastName = "Villegas";
             userObject.email = email;
-            userObject.favoriteCountry = "PAN";
+            userObject.favoriteCountryCode = "PAN";
+			userObject.favoriteCountry = "Panamá";
             userObject.urlPicture = "";
         break;
         case "esaco02@gmail.com":
             userObject.name = "Ernesto";
             userObject.lastName = "Saborío";
             userObject.email = email;
-            userObject.favoriteCountry = "CRC";
+            userObject.favoriteCountryCode = "CRC";
+			userObject.favoriteCountry = "Costa Rica";
             userObject.urlPicture = "";
         break;
         case "pabloarayane0211@gmail.com":
             userObject.name = "Pablo";
             userObject.lastName = "Araya";
             userObject.email = email;
-            userObject.favoriteCountry = "MEX";
+            userObject.favoriteCountryCode = "MEX";
+			userObject.favoriteCountry = "México";
             userObject.urlPicture = "";
         break;
         default:
             userObject.name = "";
             userObject.lastName = "";
             userObject.email = "";
-            userObject.favoriteCountry = "";
+            userObject.favoriteCountryCode = "";
             userObject.urlPicture = "";
         
     }
     return userObject;
 }
 
+
 function doLogin(email){
     
     var user = getUserByEmail(email);
     
     /*Se cambia las leyendas login y register por el nombre del usuario conectado*/
-    $("#loginButton").parent(".row").attr("hidden","hidden");
-    $("#countryImage").parent().parent(".row").before("<row><div id = 'userLoggedButton' class='col-md-4 col-md-offset-8'>"+getLoggedDropdown(user.name)+"</div></row>");
+   
+	$("#loginButton").attr("hidden","hidden");
+	$("#registerButton").attr("hidden","hidden");
     
+    $("#loginButton").before("<div id = 'userLoggedButton' class='col-md-4'>"+getLoggedDropdown(user)+"</div>");
     
     /*agregamos el modal del perfil de usuario*/
     $("#modalsContainer").append(modalUserProfile(email));
@@ -68,17 +74,18 @@ function doLogin(email){
 function doLogout(){
     /*Removemos el modal de perfil de usuario y el dropdown*/
     $("#modalUserProfile").remove();
-    $("#userLoggedButton").parent().remove();
+    $("#userLoggedButton").remove();
     
     /*Mostramos los botones de login y resgister de nuevo*/
-    $("#loginButton").parent(".row").removeAttr("hidden");
-    
+
+    $("#loginButton").removeAttr("hidden");
+	$("#registerButton").removeAttr("hidden");
     
 }
-function getLoggedDropdown(userName){
+function getLoggedDropdown(userLogged){
     var dropdown = "<div class='dropdown'>"+
 "  <button class='btn btn-default dropdown-toggle btn-xs' type='button' id='userLoggedDropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true'>"+
-     userName+
+     userLogged.name+
 "    <span class='caret'></span>"+
 "  </button>"+
 "  <ul class='dropdown-menu' aria-labelledby='userLoggedDropdown'>"+

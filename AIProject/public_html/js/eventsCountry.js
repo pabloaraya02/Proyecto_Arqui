@@ -4,10 +4,10 @@
  */
 
 
-$(document).on("change","#countrySelect",function(e){
+$(document).on("change","#selectCountryMainPage",function(e){
     e.preventDefault();
 
-    var countrySelected = $("#countrySelect option:selected").val();
+    var countrySelected = $("#selectCountryMainPage option:selected").val();
     setCountryTeamFlag(countrySelected);
     $("#resultsPane")
             .empty()
