@@ -47,3 +47,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #clasificationTable{
 	margin-top: 2em;
 }
+a{
+	color:white;
+}
+.main-icons{
+	margin-top: 10px;
+	text-align:right;
+}
