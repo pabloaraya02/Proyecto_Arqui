@@ -9,8 +9,9 @@ function buildBody() {
     var header = "<div id='header' class='row'></div>";
     var pageTitle = "<div class='col-md-6'><h1>Hexagonal Final - RUSIA 2018</h1></div>";
     var countryImage = "<div class='col-md-12'><img id='countryImage' src='images/crc.png' alt='country'></div>";
-    var loginButton = "<div id = 'loginButton' class='col-md-12'><a href=#>Login</a></div>";
-    var divLoginAndCountryImage = "<div class='col-md-2 col-md-offset-4'><div class='row'>"+loginButton+"</div><div class='row'>"+countryImage+"</div></div>";
+    var loginButton = "<div id = 'loginButton' class='col-md-5'><a href=#>Login <span class='glyphicon glyphicon-user'></span></a></div>"+ "<div class='col-md-2'><span> Ó </span></div>" +
+                            "<div id = 'registerButton' class='col-md-5'><a href=#>Registrese <span class='glyphicon glyphicon-pencil'></span></a></div>";
+    var divLoginAndCountryImage = "<div class='col-md-2 col-md-offset-4' id='divLoginAndCountryImage'><div class='row'>"+loginButton+"</div><div class='row'>"+countryImage+"</div></div>";
     
     theContainer.append(header);
     
@@ -31,7 +32,12 @@ function buildBody() {
     $("#resultsPane").append(buildCalendar(countrySelected));
     
     $("#navigationPane").append(buildClasificationTable());
+    
+    /*Agregamos el modal para el login al index*/
+    $("#modalsContainer").append(modalLogin());
+    $("#modalsContainer").append(modalRegister());
 }
+
 function setCountryTeamFlag(countrySelected) {
     var imgVal = "";
     switch (countrySelected) {
@@ -196,12 +202,4 @@ function buildClasificationTable(){
 
 
 
-
-/*probando el commit
- * 
- * 
- * 
- * 
- * jj
- * */
 
