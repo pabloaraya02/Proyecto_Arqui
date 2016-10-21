@@ -17,20 +17,20 @@ function modalLogin(){
             
             "<form>"+
             "  <div class='form-group'>"+
-            "    <label for='InputEmailLogin'>Email address</label>"+
-            "    <input type='email' class='form-control' id='InputEmailLogin' placeholder='Email'>"+
+            "    <label for='InputEmailLogin'>Correo electrónico</label>"+
+            "    <input type='email' class='form-control' id='InputEmailLogin' placeholder='Correo electrónico'>"+
             "  </div>"+
             "  <div class='form-group'>"+
-            "    <label for='InputPasswordLogin'>Password</label>"+
-            "    <input type='password' class='form-control' id='InputPasswordLogin' placeholder='Password'>"+
+            "    <label for='InputPasswordLogin'>Contraseña</label>"+
+            "    <input type='password' class='form-control' id='InputPasswordLogin' placeholder='Contraseña'>"+
             "  </div>"+
             "</form>"+
 
     
     "      </div>"+
     "      <div class='modal-footer'>"+
-    "        <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>"+
-    "        <button id='okLoginButton' type='button' class='btn btn-primary'>Login</button>"+
+    "        <button type='button' class='btn btn-default' data-dismiss='modal'>Cerrar</button>"+
+    "        <button id='okLoginButton' type='button' class='btn btn-primary'>Iniciar sesión</button>"+
     "      </div>"+
     "    </div><!-- /.modal-content -->"+
     "  </div><!-- /.modal-dialog -->"+
@@ -51,7 +51,7 @@ function modalRegister(){
     "        <p>One fine body&hellip;</p>"+
     "      </div>"+
     "      <div class='modal-footer'>"+
-    "        <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>"+
+    "        <button type='button' class='btn btn-default' data-dismiss='modal'>Cerrar</button>"+
     "        <button type='button' class='btn btn-primary'>Registrarse</button>"+
     "      </div>"+
     "    </div><!-- /.modal-content -->"+
