@@ -22,21 +22,21 @@ function getUserByEmail(email){
             userObject.name = "Sergio";
             userObject.lastName = "Villegas";
             userObject.email = email;
-            userObject.favoriteCountry = "Panamá";
+            userObject.favoriteCountry = "PAN";
             userObject.urlPicture = "";
         break;
         case "esaco02@gmail.com":
             userObject.name = "Ernesto";
             userObject.lastName = "Saborío";
             userObject.email = email;
-            userObject.favoriteCountry = "Costa Rica";
+            userObject.favoriteCountry = "CRC";
             userObject.urlPicture = "";
         break;
         case "pabloarayane0211@gmail.com":
             userObject.name = "Pablo";
             userObject.lastName = "Araya";
             userObject.email = email;
-            userObject.favoriteCountry = "México";
+            userObject.favoriteCountry = "MEX";
             userObject.urlPicture = "";
         break;
         default:
@@ -49,7 +49,6 @@ function getUserByEmail(email){
     }
     return userObject;
 }
-
 
 function doLogin(email){
     
