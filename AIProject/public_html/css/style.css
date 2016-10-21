@@ -47,3 +47,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #clasificationTable{
 	margin-top: 2em;
 }
+
+#___gcse_0 div{
+    background-color: transparent;
+    border-color: transparent;
+}

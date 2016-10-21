@@ -58,6 +58,23 @@ function doLogin(email){
     /*Se cambia las leyendas login y register por el nombre del usuario conectado*/
     $("#loginButton").parent(".row").attr("hidden","hidden");
     $("#countryImage").parent().parent(".row").before("<row><div id = 'userLoggedButton' class='col-md-4 col-md-offset-8'>"+getLoggedDropdown(user.name)+"</div></row>");
+    
+    
+    /*agregamos el modal del perfil de usuario*/
+    $("#modalsContainer").append(modalUserProfile(email));
+    
+    
+    /*Debemos mostrar el pais acorde con la preferencia del usuario (favoriteCountry)*/
+}
+function doLogout(){
+    /*Removemos el modal de perfil de usuario y el dropdown*/
+    $("#modalUserProfile").remove();
+    $("#userLoggedButton").parent().remove();
+    
+    /*Mostramos los botones de login y resgister de nuevo*/
+    $("#loginButton").parent(".row").removeAttr("hidden");
+    
+    
 }
 function getLoggedDropdown(userName){
     var dropdown = "<div class='dropdown'>"+
@@ -66,9 +83,9 @@ function getLoggedDropdown(userName){
 "    <span class='caret'></span>"+
 "  </button>"+
 "  <ul class='dropdown-menu' aria-labelledby='userLoggedDropdown'>"+
-"    <li><a href='#'>Mi Perfil</a></li>"+
+"    <li><a id='myProfileButton' href='#'>Mi Perfil <span class='glyphicon glyphicon-user'></span></a></li>"+
 "    <li role='separator' class='divider'></li>"+
-"    <li><a href='#'>Salir</a></li>"+
+"    <li><a id='logoutButton' href='#'>Salir </a></li>"+
 "  </ul>"+
 "</div>";
     return dropdown;

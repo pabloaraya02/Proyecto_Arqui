@@ -40,6 +40,8 @@ function buildBody(myCallback) {
     
     /*Este corre el startGoogleSearch()*/
     myCallback;
+    $(".gsc-control-cse-es").css("background-color","transparent")
+                            .css("border-color","transparent"); 
 }
 
 function setCountryTeamFlag(countrySelected) {
