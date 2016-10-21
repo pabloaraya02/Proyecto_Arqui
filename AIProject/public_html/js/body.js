@@ -2,7 +2,8 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
+var domainroot='www.google.com'
+function Gsitesearch(curobj){ curobj.q.value='site:'+domainroot+' '+curobj.qfront.value } 
 
 function buildBody(myCallback) {
     var theContainer = $(".container");
@@ -15,6 +16,7 @@ function buildBody(myCallback) {
     var divLoginAndCountryImage = "<div class='col-md-3 pull-right' id='divLoginAndCountryImage'><div class='row'>"+loginButton+"</div><div class='row'>"+countryImage+"</div></div>";
     
     theContainer.append(header);
+	
     
 
     $("#header").append(pageTitle).append(googleSearch).append(divLoginAndCountryImage);
