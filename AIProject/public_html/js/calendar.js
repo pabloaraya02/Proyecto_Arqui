@@ -1,9 +1,3 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 function buildCalendar(country) {
     var schecule = "";
     switch (country) {
@@ -102,20 +96,3 @@ function buildCalendar(country) {
     return schecule;
     
 }
-
-/**
-"+
-"+
-"+
-"+
-"+
-"+
-"+
-"+
-"+
-"+
-"+
-"+
-"
-
- **/

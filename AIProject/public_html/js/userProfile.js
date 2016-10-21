@@ -57,5 +57,19 @@ function doLogin(email){
     
     /*Se cambia las leyendas login y register por el nombre del usuario conectado*/
     $("#loginButton").parent(".row").attr("hidden","hidden");
-    $("#countryImage").parent().parent(".row").before("<row><div id = 'userLoggedButton' class='col-md-12'><a href=#>Hola "+user.name+" <span class='glyphicon glyphicon-chevron-down'></span></a></div></row>");
+    $("#countryImage").parent().parent(".row").before("<row><div id = 'userLoggedButton' class='col-md-4 col-md-offset-8'>"+getLoggedDropdown(user.name)+"</div></row>");
+}
+function getLoggedDropdown(userName){
+    var dropdown = "<div class='dropdown'>"+
+"  <button class='btn btn-default dropdown-toggle btn-xs' type='button' id='userLoggedDropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true'>"+
+     userName+
+"    <span class='caret'></span>"+
+"  </button>"+
+"  <ul class='dropdown-menu' aria-labelledby='userLoggedDropdown'>"+
+"    <li><a href='#'>Mi Perfil</a></li>"+
+"    <li role='separator' class='divider'></li>"+
+"    <li><a href='#'>Salir</a></li>"+
+"  </ul>"+
+"</div>";
+    return dropdown;
 }
