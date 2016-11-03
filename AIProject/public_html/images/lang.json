@@ -1,0 +1,15 @@
+{
+    "d":[
+     {
+        "lang":"ESP",
+        "jornadaCAPS":"Jornada",
+        "jornada":"roud"
+         
+     },
+     {
+         "lang":"ING",
+        "jornadaCAPS":"Round",
+         "jornada":"roud"
+     }
+    ]
+}

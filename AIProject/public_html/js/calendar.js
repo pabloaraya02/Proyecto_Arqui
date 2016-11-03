@@ -8,7 +8,7 @@ function buildCalendar(country) {
                 "<tr><td>2</td><td>Jornada 2</td><td>15 de noviembre de 2016</td><td>Estados Unidos</td><td>Casa</td></tr>"+
                 "<tr><td>3</td><td>Jornada 3</td><td>24 de marzo de 2017</td><td>México</td><td>Visitante</td></tr>"+
                 "<tr><td>4</td><td>Jornada 4</td><td>28 de marzo de 2017</td><td>Honduras</td><td>Visitante</td></tr>"+
-                "<tr><td>5</td><td>Jornada 5</td><td>13 de junio de 2017</td><td>Panamá</td><td>Casa</td></tr>"+
+                "<tr><td>5</td><td>Jornada 5</td><td>7 de junio de 2017</td><td>Panamá</td><td>Casa</td></tr>"+
                 "<tr><td>6</td><td>Jornada 6</td><td>13 de junio de 2017</td><td>Trinidad y Tobago</td><td>Casa</td></tr>"+
                 "<tr><td>7</td><td>Jornada 7</td><td>1 de septiembre de 2017</td><td>Estados Unidos</td><td>Visitante</td></tr>"+
                 "<tr><td>8</td><td>Jornada 8</td><td>5 de septiembre de 2017</td><td>México</td><td>Casa</td></tr>"+
@@ -23,7 +23,7 @@ function buildCalendar(country) {
                 "<tr><td>2</td><td>Jornada 2</td><td>15 de noviembre de 2016</td><td>Trinidad y Tobago</td><td>Casa</td></tr>"+
                 "<tr><td>3</td><td>Jornada 3</td><td>24 de marzo de 2017</td><td>Estados Unidos</td><td>Visitante</td></tr>"+
                 "<tr><td>4</td><td>Jornada 4</td><td>28 de marzo de 2017</td><td>Costa Rica</td><td>Visitante</td></tr>"+
-                "<tr><td>5</td><td>Jornada 5</td><td>13 de junio de 2017</td><td>México </td><td>Casa</td></tr>"+
+                "<tr><td>5</td><td>Jornada 5</td><td>7 de junio de 2017</td><td>México </td><td>Casa</td></tr>"+
                 "<tr><td>6</td><td>Jornada 6</td><td>13 de junio de 2017</td><td>Panamá</td><td>Casa</td></tr>"+
                 "<tr><td>7</td><td>Jornada 7</td><td>1 de septiembre de 2017</td><td>Trinidad y Tobago</td><td>Visitante</td></tr>"+
                 "<tr><td>8</td><td>Jornada 8</td><td>5 de septiembre de 2017</td><td>Estados Unidos</td><td>Casa</td></tr>"+
@@ -39,7 +39,7 @@ function buildCalendar(country) {
                 "<tr><td>2</td><td>Jornada 2</td><td>15 de noviembre de 2016</td><td>Panamá </td><td>Casa</td></tr>"+
                 "<tr><td>3</td><td>Jornada 3</td><td>24 de marzo de 2017</td><td>Costa Rica</td><td>Visitante</td></tr>"+
                 "<tr><td>4</td><td>Jornada 4</td><td>28 de marzo de 2017</td><td>Trinidad y Tobago</td><td>Visitante</td></tr>"+
-                "<tr><td>5</td><td>Jornada 5</td><td>13 de junio de 2017</td><td>Honduras</td><td>Casa</td></tr>"+
+                "<tr><td>5</td><td>Jornada 5</td><td>7 de junio de 2017</td><td>Honduras</td><td>Casa</td></tr>"+
                 "<tr><td>6</td><td>Jornada 6</td><td>13 de junio de 2017</td><td>Estados Unidos</td><td>Casa</td></tr>"+
                 "<tr><td>7</td><td>Jornada 7</td><td>1 de septiembre de 2017</td><td>Panamá</td><td>Visitante</td></tr>"+
                 "<tr><td>8</td><td>Jornada 8</td><td>5 de septiembre de 2017</td><td>Costa Rica</td><td>Casa</td></tr>"+
@@ -54,7 +54,7 @@ function buildCalendar(country) {
                 "<tr><td>2</td><td>Jornada 2</td><td>15 de noviembre de 2016</td><td>México</td><td>Casa</td></tr>"+
                 "<tr><td>3</td><td>Jornada 3</td><td>24 de marzo de 2017</td><td>Trinidad y Tobago </td><td>Visitante</td></tr>"+
                 "<tr><td>4</td><td>Jornada 4</td><td>28 de marzo de 2017</td><td>Estados Unidos</td><td>Visitante</td></tr>"+
-                "<tr><td>5</td><td>Jornada 5</td><td>13 de junio de 2017</td><td>Costa Rica</td><td>Casa</td></tr>"+
+                "<tr><td>5</td><td>Jornada 5</td><td>7 de junio de 2017</td><td>Costa Rica</td><td>Casa</td></tr>"+
                 "<tr><td>6</td><td>Jornada 6</td><td>13 de junio de 2017</td><td>Honduras </td><td>Casa</td></tr>"+
                 "<tr><td>7</td><td>Jornada 7</td><td>1 de septiembre de 2017</td><td>México</td><td>Visitante</td></tr>"+
                 "<tr><td>8</td><td>Jornada 8</td><td>5 de septiembre de 2017</td><td>Trinidad y Tobago </td><td>Casa</td></tr>"+
@@ -69,7 +69,7 @@ function buildCalendar(country) {
                 "<tr><td>2</td><td>Jornada 2</td><td>15 de noviembre de 2016</td><td>México</td><td>Casa</td></tr>"+
                 "<tr><td>3</td><td>Jornada 3</td><td>24 de marzo de 2017</td><td>Trinidad y Tobago </td><td>Visitante</td></tr>"+
                 "<tr><td>4</td><td>Jornada 4</td><td>28 de marzo de 2017</td><td>Estados Unidos</td><td>Visitante</td></tr>"+
-                "<tr><td>5</td><td>Jornada 5</td><td>13 de junio de 2017</td><td>Costa Rica</td><td>Casa</td></tr>"+
+                "<tr><td>5</td><td>Jornada 5</td><td>7 de junio de 2017</td><td>Costa Rica</td><td>Casa</td></tr>"+
                 "<tr><td>6</td><td>Jornada 6</td><td>13 de junio de 2017</td><td>Honduras </td><td>Casa</td></tr>"+
                 "<tr><td>7</td><td>Jornada 7</td><td>1 de septiembre de 2017</td><td>México</td><td>Visitante</td></tr>"+
                 "<tr><td>8</td><td>Jornada 8</td><td>5 de septiembre de 2017</td><td>Trinidad y Tobago </td><td>Casa</td></tr>"+
@@ -85,7 +85,7 @@ function buildCalendar(country) {
                 "<tr><td>2</td><td>Jornada 2</td><td>15 de noviembre de 2016</td><td>Costa Rica</td><td>Casa</td></tr>"+
                 "<tr><td>3</td><td>Jornada 3</td><td>24 de marzo de 2017</td><td>Honduras</td><td>Visitante</td></tr>"+
                 "<tr><td>4</td><td>Jornada 4</td><td>28 de marzo de 2017</td><td>Panamá </td><td>Visitante</td></tr>"+
-                "<tr><td>5</td><td>Jornada 5</td><td>13 de junio de 2017</td><td>Trinidad y Tobago</td><td>Casa</td></tr>"+
+                "<tr><td>5</td><td>Jornada 5</td><td>7 de junio de 2017</td><td>Trinidad y Tobago</td><td>Casa</td></tr>"+
                 "<tr><td>6</td><td>Jornada 6</td><td>13 de junio de 2017</td><td>México </td><td>Casa</td></tr>"+
                 "<tr><td>7</td><td>Jornada 7</td><td>1 de septiembre de 2017</td><td>Costa Rica</td><td>Visitante</td></tr>"+
                 "<tr><td>8</td><td>Jornada 8</td><td>5 de septiembre de 2017</td><td>Honduras </td><td>Casa</td></tr>"+

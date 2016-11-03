@@ -62,7 +62,7 @@ function modalRegister(){
             "    <input type='password' class='form-control' id='repeatInputPasswordReg' placeholder='Contraseña'>"+
             "  </div>"+
 			"  <div class='form-group'>"+
-            "    <label for='chooseCountryReg'>Repita la Contraseña</label>"+
+            "    <label for='chooseCountryReg'>Seleccione su país favorito</label>"+
 			buildSelectOfCountries("chooseCountryReg")+
             "  </div>"+
             "</form>"+
