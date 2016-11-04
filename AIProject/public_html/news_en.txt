@@ -1,0 +1,205 @@
+<div class='news-container'>        
+<div class='content-latest-news-item'>
+            <ul class='ul-inline'>
+                <li class='col1'>
+                    <a href='/article/concacaf-uefa-cl-players-featured-in-costa-rica-wcq-squad'>
+                        <div class='news-latest-item-image'>
+                            <img alt='' src='img/FEAT-BryanRuiz-061116vColombia-299x269.jpg'>
+                                                    </div>
+                    </a>
+                </li>
+                <li class='col2'>
+						<span class='latest-news-category'>
+						<h4><a href='/article/concacaf-uefa-cl-players-featured-in-costa-rica-wcq-squad'>CONCACAF, UEFA CL players featured in Costa Rica WCQ squad</a>
+                        </h4>
+						<a href='/category/world-cup-qualifying-men'>World Cup Qualifying - Men</a>
+						<span class='date'>Nov 03, 2016</span>
+						</span>
+						<span class='latest-news-item-descr' title='Costa Rica head coach Oscar Ramirez announced Wednesday a 23-man roster for the opening matches of fifth round, CONCACAF qualifying for the 2018 FIFA World Cup against Trinidad &amp; Tobago (November 11, away) and the United States (November 15, home).'>Costa Rica head coach Oscar Ramirez announced Wednesday a 23-man roster for the opening matches of fifth round, CONCACAF qualifying for the 2018 FIFA World Cup against Trinidad &amp; Tobago (November 11, away) and the United States (November 15, home).</span>
+                </li>
+            </ul>
+        </div>
+                <div class='content-latest-news-item'>
+            <ul class='ul-inline'>
+                <li class='col1'>
+                    <a href='/article/honduras-intl-lozano-sidelined-by-injury-in-spain'>
+                        <div class='news-latest-item-image'>
+                            <img alt='' src='img/FEAT-AntonyLozano-070115vMexico-299x269.jpg'>
+                                                    </div>
+                    </a>
+                </li>
+                <li class='col2'>
+						<span class='latest-news-category'>
+						<h4><a href='/article/honduras-intl-lozano-sidelined-by-injury-in-spain'>Honduras int’l Lozano sidelined by injury in Spain</a>
+                        </h4>
+						<a href='/category/world-cup-qualifying-men'>World Cup Qualifying - Men</a>
+						<span class='date'>Nov 01, 2016</span>
+						</span>
+						<span class='latest-news-item-descr' title='Honduras international Antony Lozano will be out of action for an unspecified amount of time after suffering an injury in a Spanish second-division match this past weekend, his club Tenerife announced.'>Honduras international Antony Lozano will be out of action for an unspecified amount of time after suffering an injury in a Spanish second-division match this past weekend, his club Tenerife announced.</span>
+                </li>
+            </ul>
+        </div>
+                <div class='content-latest-news-item'>
+            <ul class='ul-inline'>
+                <li class='col1'>
+                    <a href='/article/tt-places-initial-focus-on-world-cup-qualifiers'>
+                        <div class='news-latest-item-image'>
+                            <img alt='' src='img/FEAT-Trinidad-111315vGuatemalaCelebration-299x269.jpg'>
+                                                    </div>
+                    </a>
+                </li>
+                <li class='col2'>
+						<span class='latest-news-category'>
+						<h4><a href='/article/tt-places-initial-focus-on-world-cup-qualifiers'>T&amp;T places initial focus on World Cup qualifiers</a>
+                        </h4>
+						<a href='/category/world-cup-qualifying-men'>World Cup Qualifying - Men</a>
+						<span class='date'>Oct 28, 2016</span>
+						</span>
+						<span class='latest-news-item-descr' title='Trinidad &amp; Tobago’s only World Cup appearance came in 2006, when it registered a scoreless draw and two losses by the same 2-0 result in three matches.'>Trinidad &amp; Tobago’s only World Cup appearance came in 2006, when it registered a scoreless draw and two losses by the same 2-0 result in three matches.</span>
+                </li>
+            </ul>
+        </div>
+                <div class='content-latest-news-item'>
+            <ul class='ul-inline'>
+                <li class='col1'>
+                    <a href='/article/sccl-stars-featured-on-panama-wcq-roster'>
+                        <div class='news-latest-item-image'>
+                            <img alt='' src='img/FEAT-BlasPerez-092816vCentralFCCelebration1-299x269.jpg'>
+                                                    </div>
+                    </a>
+                </li>
+                <li class='col2'>
+						<span class='latest-news-category'>
+						<h4><a href='/article/sccl-stars-featured-on-panama-wcq-roster'>SCCL stars featured on Panama WCQ roster</a>
+                        </h4>
+						<a href='/category/champions-league'>Champions League</a>
+						<span class='date'>Oct 26, 2016</span>
+						</span>
+						<span class='latest-news-item-descr' title='Panama head coach Hernan Dario Gomez announced Wednesday a list of 25 players called up for the opening pair of matches in the final round of CONCACAF qualifying for the 2018 FIFA World Cup.'>Panama head coach Hernan Dario Gomez announced Wednesday a list of 25 players called up for the opening pair of matches in the final round of CONCACAF qualifying for the 2018 FIFA World Cup.</span>
+                </li>
+            </ul>
+        </div>
+                   <!-- <div class='content-news-ad'>
+                <div id='div-gpt-ad-1371523363480-1-1' style='width:728px; height:90px;' data-google-query-id='CMiFjrHBjdACFRJGhgodGQQHkA'><div id='google_ads_iframe_/23939445/NewsHub_EN_728x90_First_0__container__' style='border: 0pt none;'><iframe id='google_ads_iframe_/23939445/NewsHub_EN_728x90_First_0' title='3rd party ad content' name='google_ads_iframe_/23939445/NewsHub_EN_728x90_First_0' width='728' height='90' scrolling='no' marginwidth='0' marginheight='0' frameborder='0' srcdoc='' style='border: 0px; vertical-align: bottom;'></iframe></div></div>            </div>
+                    -->
+		<div class='content-latest-news-item'>
+            <ul class='ul-inline'>
+                <li class='col1'>
+                    <a href='/article/tt-intl-jones-to-miss-central-fcs-sccl-clash-at-skc'>
+                        <div class='news-latest-item-image'>
+                            <img alt='' src='img/FEAT-KenwyneJones-100518vDominicanRepublic1-299x269.jpg'>
+                                                    </div>
+                    </a>
+                </li>
+                <li class='col2'>
+						<span class='latest-news-category'>
+						<h4><a href='/article/tt-intl-jones-to-miss-central-fcs-sccl-clash-at-skc'>T&amp;T int’l Jones to miss Central FC’s SCCL clash at SKC</a>
+                        </h4>
+						<a href='/category/caribbean-cup-men'>Caribbean Cup - Men</a>
+						<span class='date'>Oct 19, 2016</span>
+						</span>
+						<span class='latest-news-item-descr' title='Kenwyne Jones will miss Central FC’s last game in the 2016/17 Scotiabank CONCACAF Champions League on Wednesday at Sporting Kansas as recovers from tendon damage in his leg.'>Kenwyne Jones will miss Central FC’s last game in the 2016/17 Scotiabank CONCACAF Champions League on Wednesday at Sporting Kansas as recovers from tendon damage in his leg.</span>
+                </li>
+            </ul>
+        </div>
+                <div class='content-latest-news-item'>
+            <ul class='ul-inline'>
+                <li class='col1'>
+                    <a href='/article/green-once-again-makes-u-s-impact'>
+                        <div class='news-latest-item-image'>
+                            <img alt='' src='img/FEAT-JulianGreen-070114vBelgiumC-299x269.jpg'>
+                                                    </div>
+                    </a>
+                </li>
+                <li class='col2'>
+						<span class='latest-news-category'>
+						<h4><a href='/article/green-once-again-makes-u-s-impact'>Green, once again, makes U.S. impact</a>
+                        </h4>
+						<a href='/category/world-cup-qualifying-men'>World Cup Qualifying - Men</a>
+						<span class='date'>Oct 13, 2016</span>
+						</span>
+						<span class='latest-news-item-descr' title='Jurgen Klinsmann had a good inkling that Julian Green was going to do something special this time.'>Jurgen Klinsmann had a good inkling that Julian Green was going to do something special this time.</span>
+                </li>
+            </ul>
+        </div>
+                <div class='content-latest-news-item'>
+            <ul class='ul-inline'>
+                <li class='col1'>
+                    <a href='/article/peralta-goal-powers-mexico-past-panama'>
+                        <div class='news-latest-item-image'>
+                            <img alt='' src='img/FEAT-OribePeralta-101116vPanama-299x269.jpg'>
+                                                    </div>
+                    </a>
+                </li>
+                <li class='col2'>
+						<span class='latest-news-category'>
+						<h4><a href='/article/peralta-goal-powers-mexico-past-panama'>Peralta goal powers Mexico past Panama</a>
+                        </h4>
+						<a href='/category/world-cup-qualifying-men'>World Cup Qualifying - Men</a>
+						<span class='date'>Oct 12, 2016</span>
+						</span>
+						<span class='latest-news-item-descr' title='Oribe Peralta’s second-half goal proved to be the difference as Mexico edged Panama, 1-0, in an international friendly at Toyota Park on Tuesday night in both teams’ final tune-up before the start of the final round of CONCACAF qualifying for the 2018 FIFA World Cup.'>Oribe Peralta’s second-half goal proved to be the difference as Mexico edged Panama, 1-0, in an international friendly at Toyota Park on Tuesday night in both teams’ final tune-up before the start of the final round of CONCACAF qualifying for the 2018 FIFA World Cup.</span>
+                </li>
+            </ul>
+        </div>
+                <div class='content-latest-news-item'>
+            <ul class='ul-inline'>
+                <li class='col1'>
+                    <a href='/article/canada-falls-to-morocco-in-friendly'>
+                        <div class='news-latest-item-image'>
+                            <img alt='' src='img/FEAT-Canada-101116vMorocco-299x269.jpg'>
+                                                    </div>
+                    </a>
+                </li>
+                <li class='col2'>
+						<span class='latest-news-category'>
+						<h4><a href='/article/canada-falls-to-morocco-in-friendly'>Canada falls to Morocco in friendly</a>
+                        </h4>
+						<a href='/category/world-cup-qualifying-men'>World Cup Qualifying - Men</a>
+						<span class='date'>Oct 12, 2016</span>
+						</span>
+						<span class='latest-news-item-descr' title='Morocco scored three goals in the second half, including a pair from the penalty spot, to earn a 4-0 win over visiting Canada in an international friendly on Tuesday at the Grand Stade de Marrakech.'>Morocco scored three goals in the second half, including a pair from the penalty spot, to earn a 4-0 win over visiting Canada in an international friendly on Tuesday at the Grand Stade de Marrakech.</span>
+                </li>
+            </ul>
+        </div>
+                <div class='content-latest-news-item'>
+            <ul class='ul-inline'>
+                <li class='col1'>
+                    <a href='/article/late-goal-gives-new-zealand-draw-with-u-s'>
+                        <div class='news-latest-item-image'>
+                            <img alt='' src='img/FEAT-SachaKljestan-101116vNewZealand-299x269.jpg'>
+                                                    </div>
+                    </a>
+                </li>
+                <li class='col2'>
+						<span class='latest-news-category'>
+						<h4><a href='/article/late-goal-gives-new-zealand-draw-with-u-s'>Late goal gives New Zealand draw with U.S.</a>
+                        </h4>
+						<a href='/category/world-cup-qualifying-men'>World Cup Qualifying - Men</a>
+						<span class='date'>Oct 12, 2016</span>
+						</span>
+						<span class='latest-news-item-descr' title='The United States could not hold onto a one-goal lead and settled for a 1-1 draw with visiting New Zealand in an international friendly at Robert F. Kennedy Memorial Stadium on Tuesday night.'>The United States could not hold onto a one-goal lead and settled for a 1-1 draw with visiting New Zealand in an international friendly at Robert F. Kennedy Memorial Stadium on Tuesday night.</span>
+                </li>
+            </ul>
+        </div>
+                <div class='content-latest-news-item'>
+            <ul class='ul-inline'>
+                <li class='col1'>
+                    <a href='/article/panama-looks-to-make-most-of-mexico-opportunity'>
+                        <div class='news-latest-item-image'>
+                            <img alt='' src='img/FEAT-Panama-101016Training-299x269.jpg'>
+                                                    </div>
+                    </a>
+                </li>
+                <li class='col2'>
+						<span class='latest-news-category'>
+						<h4><a href='/article/panama-looks-to-make-most-of-mexico-opportunity'>Panama looks to make most of Mexico opportunity</a>
+                        </h4>
+						<a href='/category/world-cup-qualifying-men'>World Cup Qualifying - Men</a>
+						<span class='date'>Oct 11, 2016</span>
+						</span>
+						<span class='latest-news-item-descr' title=' It will be a CONCACAF Hexagonal preview on Tuesday, when Panama and Mexico meet in an international friendly at Toyota Park.'> It will be a CONCACAF Hexagonal preview on Tuesday, when Panama and Mexico meet in an international friendly at Toyota Park.</span>
+                </li>
+            </ul>
+        </div>      
+</div>
